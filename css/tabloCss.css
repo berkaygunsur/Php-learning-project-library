@@ -1,0 +1,34 @@
+#kitapTablosu{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 0px;
+  background-image: url(../arkaplanlar/tarihBG.jpg);
+  background-position: center;
+  border: 3px rgb(75, 41, 1) solid;
+  box-shadow: 5px 5px 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#kitapTable{
+  width: 600px;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+td, th{
+  border: 2px rgb(75, 41, 1) solid;
+}
+td{
+  font-weight: bold;
+}
+th{
+  font-size: 19px;
+}
+.redClass:hover{
+  color: red;
+  cursor: pointer;
+}

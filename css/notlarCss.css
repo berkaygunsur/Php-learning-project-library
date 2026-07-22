@@ -1,0 +1,121 @@
+#notlar{
+  width: 1000px;
+  height: 680px;
+  background-color: rgb(75, 43, 17);
+  margin-left: 150px;
+  margin-top: 630px;
+  position: absolute;
+  display: block;
+  z-index: 3;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: none;
+}
+#notlarBtn{
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
+  position: absolute;
+  background-image: url(../arkaplanlar/save.png);
+  background-position: center;
+  cursor: pointer;
+}
+#notlarBtn:hover{
+  opacity: 0.8;
+}
+#notlarBtn:active{
+  opacity: 1;
+}
+#notlarInput{
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 110px;
+  width: 900px;
+  height: 530px;
+  border: 3px black solid;
+  text-align: justify;
+  resize: none;
+  font-size: 17px;
+  z-index: 4;
+  outline: none;
+}
+#sekmeler{
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 1000px;
+  height: 40px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.sekme{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(125, 75, 0);
+  border-bottom: 3px solid rgb(48, 30, 1);
+  border-left: 3px solid rgb(48, 30, 1);
+  border-right: 3px solid rgb(48, 30, 1);
+  margin-top: 0px;
+  margin-left: 4px;
+  align-items: center;
+  display: flex;
+  padding-left: 4px;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+}
+.sekme:hover{
+  background-color: rgb(98, 59, 1);
+  cursor: context-menu;
+}
+.sekmeKapa{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: monospace;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 165px;
+  z-index: 20;
+}
+#notlarKapa{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 960px;
+  margin-top: 5px;
+  position: absolute;
+  font-family: monospace;
+  cursor: pointer;
+}
+#notlarBasligi{
+  position: absolute;
+  font-size: 46px;
+  margin-left: 400px;
+  margin-top: 50px;
+  color: rgb(173, 62, 0);
+  font-weight: bold;
+}
+.sekmeIsmı{
+  margin-left: 4px;
+  position: absolute;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#favori-btn{
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 850px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+#favori-btn:hover{
+  transform: scale(1.1);
+}
+.favori0{
+  background-image: url(../arkaplanlar/emptyStar.png);
+}
+.favori1{
+  background-image: url(../arkaplanlar/star.png);
+}

@@ -1,0 +1,137 @@
+body{
+  background-position: top;
+}
+.aramaInput{
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+  background-image: url(../arkaplanlar/butonBG.jpg);
+  background-position: center;
+  outline: none;
+  border: 3px rgb(121, 54, 0) solid;
+  border-radius: 5px;
+  color: rgb(48, 26, 3);
+  font-family: cursive;
+  position: absolute;
+}
+::placeholder{
+  color: rgba(48, 26, 3, 0.88);
+}
+#yazarAra{
+  margin-left: 15px;
+  margin-top: 50px;
+}
+#KitapAra{
+  margin-left: 15px;
+  margin-top: 120px;
+}
+#yazarBtn{
+  margin-left: 280px;
+  margin-top: 55px;
+  position: absolute;
+}
+#kitapBtn{
+  margin-left: 280px;
+  margin-top: 125px;
+  position: absolute;
+}
+.aramaBtn{
+  width: 60px;
+  height: 30px;
+  background-color: rgb(147, 106, 2);
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px;
+}
+.aramaBtn:hover{
+  background-color: rgb(87, 63, 2);
+}
+#yazarIsmıEkle{
+ margin-left: 15px;
+ margin-top: 300px;
+}
+#yazarIsmıLabel{
+  margin-left: 15px;
+  margin-top: 275px;
+}
+.label{
+  font-size: 21px;
+  color: rgb(208, 138, 1);
+  position: absolute;
+}
+#kitapIsmıEkle{
+  margin-left: 15px;
+  margin-top: 370px;
+}
+#kitapIsmıLabel{
+  margin-left: 15px;
+  margin-top: 345px;
+}
+#rafNumarasıEkle{
+  margin-left: 15px;
+  margin-top: 440px;
+}
+#rafNumarasıLabel{
+  margin-left: 15px;
+  margin-top: 415px;
+}
+#konumNumarasıEkle{
+  margin-left: 15px;
+  margin-top: 510px;
+}
+#konumNumarasıLabel{
+  margin-left: 15px;
+  margin-top: 485px;
+}
+#kayitBtn{
+  width: 90px;
+  height: 30px;
+  background-color: rgb(147, 106, 2);
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 560px;
+  box-shadow: 5px 5px 5px;
+}
+#kayitBtn:hover{
+  background-color: rgb(87, 63, 2);
+}
+#kitapSayisi{
+  position: absolute;
+  width: 220px;
+  height: 26px;
+  background-color: rgb(218, 138, 2);
+  border: 3px rgb(179, 102, 0) solid;
+  border-radius: 5px;
+  margin-left: 400px;
+  margin-top: 0px;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px;
+  text-align: center;
+}
+#version{
+  font-size: 12px;
+  position: fixed;
+  bottom: 0px;
+  margin-left: 0px;
+  color: white;
+  z-index: 5;
+}
+#favoriListeleBtn{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 650px;
+  background-image: url(../arkaplanlar/star.png);
+  transition: opacity 0.1s;
+}
+#favoriListeleBtn:hover{
+  opacity: 0.8;
+}
